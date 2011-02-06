@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F2AE40712FF5DED00B27F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2AE40612FF5DED00B27F8C /* UIKit.framework */; };
+		8F2AE40912FF5DED00B27F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2AE40812FF5DED00B27F8C /* Foundation.framework */; };
+		8F2AE40B12FF5DED00B27F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2AE40A12FF5DED00B27F8C /* CoreGraphics.framework */; };
+		8F2AE41112FF5DED00B27F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AE40F12FF5DED00B27F8C /* InfoPlist.strings */; };
+		8F2AE41412FF5DED00B27F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE41312FF5DED00B27F8C /* main.m */; };
+		8F2AE41712FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE41612FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.m */; };
+		8F2AE41A12FF5DED00B27F8C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AE41812FF5DED00B27F8C /* MainWindow.xib */; };
+		8F2AE41D12FF5DED00B27F8C /* AFKReviewTrollerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE41C12FF5DED00B27F8C /* AFKReviewTrollerViewController.m */; };
+		8F2AE42012FF5DED00B27F8C /* AFKReviewTrollerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AE41E12FF5DED00B27F8C /* AFKReviewTrollerViewController.xib */; };
+		8F2AE42712FF5DED00B27F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2AE40612FF5DED00B27F8C /* UIKit.framework */; };
+		8F2AE42812FF5DED00B27F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2AE40812FF5DED00B27F8C /* Foundation.framework */; };
+		8F2AE42912FF5DED00B27F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2AE40A12FF5DED00B27F8C /* CoreGraphics.framework */; };
+		8F2AE43112FF5DED00B27F8C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AE42F12FF5DED00B27F8C /* InfoPlist.strings */; };
+		8F2AE43412FF5DED00B27F8C /* AFKReviewTrollerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8F2AE43312FF5DED00B27F8C /* AFKReviewTrollerTests.h */; };
+		8F2AE43612FF5DED00B27F8C /* AFKReviewTrollerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F2AE43512FF5DED00B27F8C /* AFKReviewTrollerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F2AE42A12FF5DED00B27F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F2AE3F912FF5DED00B27F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F2AE40112FF5DED00B27F8C;
+			remoteInfo = AFKReviewTroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F2AE40212FF5DED00B27F8C /* AFKReviewTroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFKReviewTroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2AE40612FF5DED00B27F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8F2AE40812FF5DED00B27F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8F2AE40A12FF5DED00B27F8C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8F2AE40E12FF5DED00B27F8C /* AFKReviewTroller-Info.plist */ = {isa = PBXFileReference; path = "AFKReviewTroller-Info.plist"; sourceTree = "<group>"; };
+		8F2AE41012FF5DED00B27F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F2AE41212FF5DED00B27F8C /* AFKReviewTroller-Prefix.pch */ = {isa = PBXFileReference; path = "AFKReviewTroller-Prefix.pch"; sourceTree = "<group>"; };
+		8F2AE41312FF5DED00B27F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F2AE41512FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.h */ = {isa = PBXFileReference; path = AFKReviewTrollerAppDelegate.h; sourceTree = "<group>"; };
+		8F2AE41612FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKReviewTrollerAppDelegate.m; sourceTree = "<group>"; };
+		8F2AE41912FF5DED00B27F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8F2AE41B12FF5DED00B27F8C /* AFKReviewTrollerViewController.h */ = {isa = PBXFileReference; path = AFKReviewTrollerViewController.h; sourceTree = "<group>"; };
+		8F2AE41C12FF5DED00B27F8C /* AFKReviewTrollerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKReviewTrollerViewController.m; sourceTree = "<group>"; };
+		8F2AE41F12FF5DED00B27F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/AFKReviewTrollerViewController.xib; sourceTree = "<group>"; };
+		8F2AE42612FF5DED00B27F8C /* AFKReviewTrollerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AFKReviewTrollerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F2AE42E12FF5DED00B27F8C /* AFKReviewTrollerTests-Info.plist */ = {isa = PBXFileReference; path = "AFKReviewTrollerTests-Info.plist"; sourceTree = "<group>"; };
+		8F2AE43012FF5DED00B27F8C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8F2AE43212FF5DED00B27F8C /* AFKReviewTrollerTests-Prefix.pch */ = {isa = PBXFileReference; path = "AFKReviewTrollerTests-Prefix.pch"; sourceTree = "<group>"; };
+		8F2AE43312FF5DED00B27F8C /* AFKReviewTrollerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFKReviewTrollerTests.h; sourceTree = "<group>"; };
+		8F2AE43512FF5DED00B27F8C /* AFKReviewTrollerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFKReviewTrollerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F2AE3FF12FF5DED00B27F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AE40712FF5DED00B27F8C /* UIKit.framework in Frameworks */,
+				8F2AE40912FF5DED00B27F8C /* Foundation.framework in Frameworks */,
+				8F2AE40B12FF5DED00B27F8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2AE42212FF5DED00B27F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AE42712FF5DED00B27F8C /* UIKit.framework in Frameworks */,
+				8F2AE42812FF5DED00B27F8C /* Foundation.framework in Frameworks */,
+				8F2AE42912FF5DED00B27F8C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F2AE3F712FF5DED00B27F8C = {
+			isa = PBXGroup;
+			children = (
+				8F2AE40C12FF5DED00B27F8C /* AFKReviewTroller */,
+				8F2AE42C12FF5DED00B27F8C /* AFKReviewTrollerTests */,
+				8F2AE40512FF5DED00B27F8C /* Frameworks */,
+				8F2AE40312FF5DED00B27F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F2AE40312FF5DED00B27F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F2AE40212FF5DED00B27F8C /* AFKReviewTroller.app */,
+				8F2AE42612FF5DED00B27F8C /* AFKReviewTrollerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F2AE40512FF5DED00B27F8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F2AE40612FF5DED00B27F8C /* UIKit.framework */,
+				8F2AE40812FF5DED00B27F8C /* Foundation.framework */,
+				8F2AE40A12FF5DED00B27F8C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F2AE40C12FF5DED00B27F8C /* AFKReviewTroller */ = {
+			isa = PBXGroup;
+			children = (
+				8F2AE41512FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.h */,
+				8F2AE41612FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.m */,
+				8F2AE41812FF5DED00B27F8C /* MainWindow.xib */,
+				8F2AE41B12FF5DED00B27F8C /* AFKReviewTrollerViewController.h */,
+				8F2AE41C12FF5DED00B27F8C /* AFKReviewTrollerViewController.m */,
+				8F2AE41E12FF5DED00B27F8C /* AFKReviewTrollerViewController.xib */,
+				8F2AE40D12FF5DED00B27F8C /* Supporting Files */,
+			);
+			path = AFKReviewTroller;
+			sourceTree = "<group>";
+		};
+		8F2AE40D12FF5DED00B27F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F2AE40E12FF5DED00B27F8C /* AFKReviewTroller-Info.plist */,
+				8F2AE40F12FF5DED00B27F8C /* InfoPlist.strings */,
+				8F2AE41212FF5DED00B27F8C /* AFKReviewTroller-Prefix.pch */,
+				8F2AE41312FF5DED00B27F8C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F2AE42C12FF5DED00B27F8C /* AFKReviewTrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F2AE43312FF5DED00B27F8C /* AFKReviewTrollerTests.h */,
+				8F2AE43512FF5DED00B27F8C /* AFKReviewTrollerTests.m */,
+				8F2AE42D12FF5DED00B27F8C /* Supporting Files */,
+			);
+			path = AFKReviewTrollerTests;
+			sourceTree = "<group>";
+		};
+		8F2AE42D12FF5DED00B27F8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F2AE42E12FF5DED00B27F8C /* AFKReviewTrollerTests-Info.plist */,
+				8F2AE42F12FF5DED00B27F8C /* InfoPlist.strings */,
+				8F2AE43212FF5DED00B27F8C /* AFKReviewTrollerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F2AE40112FF5DED00B27F8C /* AFKReviewTroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2AE43912FF5DED00B27F8C /* Build configuration list for PBXNativeTarget "AFKReviewTroller" */;
+			buildPhases = (
+				8F2AE3FE12FF5DED00B27F8C /* Sources */,
+				8F2AE3FF12FF5DED00B27F8C /* Frameworks */,
+				8F2AE40012FF5DED00B27F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFKReviewTroller;
+			productName = AFKReviewTroller;
+			productReference = 8F2AE40212FF5DED00B27F8C /* AFKReviewTroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F2AE42512FF5DED00B27F8C /* AFKReviewTrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F2AE43C12FF5DED00B27F8C /* Build configuration list for PBXNativeTarget "AFKReviewTrollerTests" */;
+			buildPhases = (
+				8F2AE42112FF5DED00B27F8C /* Sources */,
+				8F2AE42212FF5DED00B27F8C /* Frameworks */,
+				8F2AE42312FF5DED00B27F8C /* Resources */,
+				8F2AE42412FF5DED00B27F8C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F2AE42B12FF5DED00B27F8C /* PBXTargetDependency */,
+			);
+			name = AFKReviewTrollerTests;
+			productName = AFKReviewTrollerTests;
+			productReference = 8F2AE42612FF5DED00B27F8C /* AFKReviewTrollerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F2AE3F912FF5DED00B27F8C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 8F2AE3FC12FF5DED00B27F8C /* Build configuration list for PBXProject "AFKReviewTroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F2AE3F712FF5DED00B27F8C;
+			productRefGroup = 8F2AE40312FF5DED00B27F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F2AE40112FF5DED00B27F8C /* AFKReviewTroller */,
+				8F2AE42512FF5DED00B27F8C /* AFKReviewTrollerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F2AE40012FF5DED00B27F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AE41112FF5DED00B27F8C /* InfoPlist.strings in Resources */,
+				8F2AE41A12FF5DED00B27F8C /* MainWindow.xib in Resources */,
+				8F2AE42012FF5DED00B27F8C /* AFKReviewTrollerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2AE42312FF5DED00B27F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AE43112FF5DED00B27F8C /* InfoPlist.strings in Resources */,
+				8F2AE43412FF5DED00B27F8C /* AFKReviewTrollerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F2AE42412FF5DED00B27F8C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F2AE3FE12FF5DED00B27F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AE41412FF5DED00B27F8C /* main.m in Sources */,
+				8F2AE41712FF5DED00B27F8C /* AFKReviewTrollerAppDelegate.m in Sources */,
+				8F2AE41D12FF5DED00B27F8C /* AFKReviewTrollerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F2AE42112FF5DED00B27F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F2AE43612FF5DED00B27F8C /* AFKReviewTrollerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F2AE42B12FF5DED00B27F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F2AE40112FF5DED00B27F8C /* AFKReviewTroller */;
+			targetProxy = 8F2AE42A12FF5DED00B27F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8F2AE40F12FF5DED00B27F8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F2AE41012FF5DED00B27F8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8F2AE41812FF5DED00B27F8C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F2AE41912FF5DED00B27F8C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8F2AE41E12FF5DED00B27F8C /* AFKReviewTrollerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F2AE41F12FF5DED00B27F8C /* en */,
+			);
+			name = AFKReviewTrollerViewController.xib;
+			sourceTree = "<group>";
+		};
+		8F2AE42F12FF5DED00B27F8C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F2AE43012FF5DED00B27F8C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F2AE43712FF5DED00B27F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F2AE43812FF5DED00B27F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8F2AE43A12FF5DED00B27F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKReviewTroller/AFKReviewTroller-Prefix.pch";
+				INFOPLIST_FILE = "AFKReviewTroller/AFKReviewTroller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8F2AE43B12FF5DED00B27F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKReviewTroller/AFKReviewTroller-Prefix.pch";
+				INFOPLIST_FILE = "AFKReviewTroller/AFKReviewTroller-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8F2AE43D12FF5DED00B27F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFKReviewTroller.app/AFKReviewTroller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKReviewTrollerTests/AFKReviewTrollerTests-Prefix.pch";
+				INFOPLIST_FILE = "AFKReviewTrollerTests/AFKReviewTrollerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8F2AE43E12FF5DED00B27F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AFKReviewTroller.app/AFKReviewTroller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AFKReviewTrollerTests/AFKReviewTrollerTests-Prefix.pch";
+				INFOPLIST_FILE = "AFKReviewTrollerTests/AFKReviewTrollerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F2AE3FC12FF5DED00B27F8C /* Build configuration list for PBXProject "AFKReviewTroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2AE43712FF5DED00B27F8C /* Debug */,
+				8F2AE43812FF5DED00B27F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F2AE43912FF5DED00B27F8C /* Build configuration list for PBXNativeTarget "AFKReviewTroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2AE43A12FF5DED00B27F8C /* Debug */,
+				8F2AE43B12FF5DED00B27F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F2AE43C12FF5DED00B27F8C /* Build configuration list for PBXNativeTarget "AFKReviewTrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F2AE43D12FF5DED00B27F8C /* Debug */,
+				8F2AE43E12FF5DED00B27F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F2AE3F912FF5DED00B27F8C /* Project object */;
+}
