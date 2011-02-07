@@ -10,6 +10,9 @@
 
 @interface AFKReviewTrollerViewController : UIViewController {
     
+    UILabel *runCountLabel;
 }
+
+@property (nonatomic, retain) IBOutlet UILabel *runCountLabel;
 
 @end

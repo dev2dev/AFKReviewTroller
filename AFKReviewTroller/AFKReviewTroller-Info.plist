@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>${PRODUCT_NAME}</string>
+	<string>Review Troller</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
@@ -33,6 +33,15 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
+	<key>AFKReviewTrollerRunCount</key>
+	<integer>7</integer>
+	<key>AFKReviewTrollerTitle</key>
+	<string>Review the Troller?</string>
+	<key>AFKReviewTrollerMessage</key>
+	<string>Would you like to review Review Troller?</string>
+	<key>AFKReviewTrollerAppID</key>
+	<string>409663955</string>
 </dict>
 </plist>
