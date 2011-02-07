@@ -1,0 +1,16 @@
+AFKReviewTroller
+================
+
+AFKReviewTroller is a super-simple class for your iOS project that asks the user to review your app after a certain number of executions.
+
+After a developer-determined number of runs, the Troller displays an alert view with a customizable message and, if the user so chooses, opens up the App Store at the review page directly on the device.
+
+Usage
+-----
+
+The class self-initializes and keeps count of the number of executions automatically; all you need to do is add it to your project and define four new items in your project's Info.plist file:
+
+- **AFKReviewTrollerAppID** (NSString) the iTunes ID of your app.
+- **AFKReviewTrollerTitle** (NSString) the title of the UIAlertView
+- **AFKReviewTrollerMessage** (NSString) the message to show in the UIAlertView
+- **AFKReviewTrollerRunCount** (NSNumber) the number of executions before the request is triggered
