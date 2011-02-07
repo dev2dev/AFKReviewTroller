@@ -64,7 +64,7 @@
     if (buttonIndex == 1) {
         NSString *appId = [[[NSBundle mainBundle] infoDictionary] objectForKey:kAFKReviewTrollerAppID];
 
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=%@&mt=8", appId]]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:[NSString stringWithFormat:@"https://userpub.itunes.apple.com/WebObjects/MZUserPublishing.woa/wa/addUserReview?id=%@&type=Purple+Software", appId]]];
     }
 }
 
